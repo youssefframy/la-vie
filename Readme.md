@@ -1,8 +1,8 @@
-#ODC React Internship Project
+# ODC React Internship Project
 
-##Figma Design
+## Figma Design
 https://www.figma.com/file/qp1xNl08DO5KUDl5ksqXPQ/La-Vie
 
-##Swagger UI Api URL
+## Swagger UI Api URL
 https://lavie.orangedigitalcenteregypt.com/api/v1/docs#/
 
