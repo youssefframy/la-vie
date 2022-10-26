@@ -6,9 +6,9 @@ interface Props {
 
 const FormInput = ({ label, type } : Props) => {
     return (
-        <div>
-            <h1 className="form-font">Email</h1>
-            <input type="text" className="lg-input" />
+        <div className="w-[100%] pr-10">
+            <h1 className="form-font">{label}</h1>
+            <input type={type} className="lg-input" />
         </div>
     );
 };
