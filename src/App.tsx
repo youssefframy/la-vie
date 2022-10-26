@@ -1,12 +1,16 @@
-import './App.css';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import Login from './pages/Login';
+import Homepage from './pages/Homepage';
 
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>Hello React Typescript</h1>
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
+  );
 }
 
-export default App
+export default App;
