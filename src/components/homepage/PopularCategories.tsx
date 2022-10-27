@@ -22,7 +22,7 @@ const Categories : React.FC = () => {
       ]
 
     return (
-      <div className="flex flex-col items-start justify-evenly space-x-2 my-20 mx-10">
+      <div className="flex flex-col items-start justify-evenly space-x-2 my-20 mx-10 ">
         <div className="w-[10rem] pb-5">
           <h1 className="text-3xl font-bold mb-3">Popular Categories</h1>
         </div>

@@ -26,14 +26,14 @@ const SnakeCategories: React.FC = () => {
     ];
 
   return (
-    <div className="flex flex-col items-start justify-evenly space-x-2 my-15 mx-10">
+    <div className="flex flex-col items-start justify-evenly space-x-2 mx-10">
       <div className="w-[10rem] pb-5">
         <h1 className="text-3xl font-bold mb-3">Best seller</h1>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center pl-12">
         {plants.map((plant) => (
          plant.id % 2 === 0
-            ? <div key={plant.id} className="flex flex-col justify-evenly items-start   mt-[10rem]">
+            ? <div key={plant.id} className="flex flex-col justify-evenly items-start mt-[10rem]">
                 <img src={plant.image} alt="plant" className="w-[70%] h-[70%]" />
                 <h1 className="text-xl font-bold pt-5">{plant.name.toUpperCase()}</h1>
                 <h1 className="text-xl font-semibold ">{plant.price} EGP</h1>
