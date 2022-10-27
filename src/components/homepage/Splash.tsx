@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import Tree from "../assets/tree1.png";
+import Tree from "../../assets/tree1.png";
 
 
 const Splash : React.FC = () => {
     return (
-      <div className="flex justify-center items-center">
-        <img src={Tree} alt="tree" className="w-[40%]" />
+      <div className="flex justify-center items-center my-10">
+        <img src={Tree} alt="tree" className="w-[35%]" />
         <div className="p-[100px]">
           <h1 className="text-3xl font-bold text-green mb-3">
             Perfect way to plant in house

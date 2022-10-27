@@ -15,7 +15,7 @@ const Navbar = ({list, auth} : Props) => {
       <nav className="bg-white sm:px-4 py-6 w-full top-0 left-0 ">
         {/* display flex with padding and responsive text color white*/}
         <div className="flex justify-between items-center">
-            <img src={Logo} alt="logo" className='px-6'/>
+            <img src={Logo} alt="logo" className='px-6 w-[10%]'/>
             {list.map((item, index) => {
                 const link = item.toLowerCase();
                 return (

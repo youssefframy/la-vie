@@ -10,7 +10,7 @@ const AuthFooter = () => {
         <span className="h-px w-64 bg-gray"></span>
       </div>
       <div className="w-[100%] flex justify-between">
-        <button className="w-[40%] flex justify-center items-center h-16 border border-gray rounded-lg text-[18px] text-darkgray font-medium">
+        <button className="w-[45%] flex justify-center items-center h-16 border border-gray rounded-lg text-[18px] text-darkgray font-medium">
           <img
             src={Google}
             alt="google"
@@ -18,7 +18,7 @@ const AuthFooter = () => {
           />
           Continue with Google
         </button>
-        <button className="w-[40%] flex justify-center items-center h-16 border border-gray rounded-lg text-[18px] text-darkgray font-medium">
+        <button className="w-[45%] flex justify-center items-center h-16 border border-gray rounded-lg text-[18px] text-darkgray font-medium">
           <img
             src={Facebook}
             alt="google"
