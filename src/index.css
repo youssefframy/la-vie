@@ -8,7 +8,7 @@
     }
 
     .lg-input{
-        @apply text-black font-bold py-2 px-4 rounded w-[100%] h-12 my-5 border border-gray;
+        @apply text-black font-bold py-2 rounded w-[100%] h-12 my-6 border border-gray;
     }
 
     .form-font{

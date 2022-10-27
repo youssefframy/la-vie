@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 
 import Logo from '../assets/logo.png';
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
 interface Props {
     list: string[];
@@ -20,8 +23,12 @@ const Navbar = ({list, auth} : Props) => {
                 )}
             )}
             {auth 
-                ? null 
-                : <Link to="/signup" className='flex justify-center items-center bg-green w-100 h-12 px-10 rounded-lg text-white text-center font-semibold Poppins hover:opacity-90'>Sign Up</Link>
+                ?<div className='mr-5'>
+                    <ShoppingCartOutlinedIcon className="text-lg mx-2" />
+                    <NotificationsNoneOutlinedIcon className="text-lg mx-2" />
+                    <AccountCircleOutlinedIcon className="text-lg mx-2" />
+                </div> 
+                : <Link to="/signup" className='flex justify-center items-center bg-green w-100 h-12 px-10 rounded-lg text-white text-center font-semibold Poppins hover:opacity-90 mr-5'>Sign Up</Link>
             }
         </div>
       </nav>
