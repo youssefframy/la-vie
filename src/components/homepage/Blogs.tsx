@@ -35,7 +35,7 @@ const Blogs: React.FC = () => {
   return (
     <div className="flex flex-col items-start justify-evenly space-x-2 my-20 mx-10 ">
       <div className="w-[10rem] pb-5">
-        <h1 className="text-3xl font-bold mb-3">Blogs</h1>
+        <h1 className="section-title">Blogs</h1>
       </div>
       <div className="flex items-start justify-between space-x-10 my-10">
         {plants.map((plant) => (

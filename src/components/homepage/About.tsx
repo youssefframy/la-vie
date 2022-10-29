@@ -4,7 +4,7 @@ const About : React.FC = () => {
     return (
       <div className="flex items-center justify-between space-x-2 my-20 mx-10">
         <div className="w-[60%] pb-5">
-          <h1 className="text-3xl font-bold mb-3">About us</h1>
+          <h1 className="section-title">About us</h1>
           <h1 className="text-s w-[100%] text-darkgray pl-5 leading-7">
             Welcome to La Vie, your number one source for planting. We're
             dedicated to giving you the very best of plants, with a focus on

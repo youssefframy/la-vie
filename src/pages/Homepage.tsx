@@ -4,6 +4,7 @@ import Categories from "../components/homepage/PopularCategories";
 import SnakeCategories from "../components/homepage/SnakeCategories";
 import Blogs from "../components/homepage/Blogs";
 import About from "../components/homepage/About";
+import Mobile from "../components/homepage/Mobile";
 
 const Homepage : React.FC = () => {
     const homepageList : string[] = ['Home', 'Shop', 'Blog', 'About', 'Community'];
@@ -17,6 +18,7 @@ const Homepage : React.FC = () => {
         <SnakeCategories />
         <Blogs />
         <About />
+        <Mobile />
       </div>
     );
 }
